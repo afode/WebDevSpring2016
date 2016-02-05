@@ -110,5 +110,6 @@ body {
 
 .welcomeText {
     vertical-align: baseline;
-
+    display: block;
+    text-align: justify;
 }
