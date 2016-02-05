@@ -1,12 +1,12 @@
 /*
  * Base structure
+ * Dashboard CSS
  */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
     padding-top: 50px;
 }
-
 
 /*
  * Global add-ons
@@ -66,7 +66,6 @@ body {
     background-color: #428bca;
 }
 
-
 /*
  * Main content
  */
@@ -83,7 +82,6 @@ body {
 .main .page-header {
     margin-top: 0;
 }
-
 
 /*
  * Placeholder dashboard ideas
@@ -102,4 +100,15 @@ body {
 .placeholder img {
     display: inline-block;
     border-radius: 50%;
+}
+
+/*
+ * Amanda Fode
+ * Personalized CSS
+ * HW1: User Interface Development
+ */
+
+.welcomeText {
+    vertical-align: baseline;
+
 }
