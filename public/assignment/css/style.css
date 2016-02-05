@@ -112,4 +112,10 @@ body {
     vertical-align: baseline;
     display: block;
     text-align: justify;
+    padding-right: 3in;
+}
+
+.size2X {
+    font-size: 18pt;
+    font-family: 'Raleway' , 'PT Serif Caption';
 }
