@@ -24,3 +24,7 @@
 .makeRoom {
     margin-top: 10px;
 }
+
+.label {
+    display: block;
+}
