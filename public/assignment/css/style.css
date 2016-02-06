@@ -4,7 +4,7 @@
  * HW1: User Interface Development
  */
 
-.welcomeText {
+.leftJustify {
     vertical-align: baseline;
     display: block;
     text-align: justify;
@@ -12,7 +12,11 @@
 }
 
 .size2X {
-    font-family: 'cursive','Raleway', 'PT Serif Caption';
-    font-size: 22pt;
+    font-family: 'monospace', 'cursive','Raleway', 'PT Serif Caption';
+    font-size: 19pt;
 }
-
+    
+.navBar-condense {
+    max-width: 500px;
+    margin: auto;
+}
