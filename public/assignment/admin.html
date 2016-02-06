@@ -26,13 +26,11 @@
 
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand sizeX2" href="#">Form Maker</a>
+            <a class="size2X navbar-brand" href="#">Form Maker</a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Register</a></li>
-                <li><a href="#">Login</a></li>
                 <li><a href="#">Username</a></li>
                 <li><a href="#">Logout</a></li>
             </ul>
@@ -58,36 +56,76 @@
         </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h1 class="page-header">Welcome !</h1>
-
-            <div class="row placeholders">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
-            </div>
-
-            <h2 class="sub-header">Section title</h2>
+            <h1 class="page-header">Admin</h1>
+            <h3>Users</h3>
 
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                     <tr>
-                        <th>#</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                        <th>Header</th>
-                        <th>Header</th>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Role</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td><input class="form-control" type="text" name="Username" placeholder="username"/></td>
+                        <td><input class="form-control" type="text" name="lastName" placeholder="password"/></td>
+                        <td><input class="form-control" type="text" name="role" placeholder="role 1, role 2"/></td>
+                        <td>
+                            <a href="#" class="btn btn-success">
+                                <scan class="glyphicon glyphicon-ok"></scan>
+                            </a>
+                            <a href="#" class="btn btn-primary">
+                                <scan class="glyphicon glyphicon-plus"></scan>
+                            </a>
+                        </td>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td>1,001</td>
-                        <td>Lorem</td>
-                        <td>ipsum</td>
-                        <td>dolor</td>
-                        <td>sit</td>
+                        <td>Alice</td>
+                        <td></td>
+                        <td>student</td>
+                        <td>
+                            <a href="#" class="btn btn-warning">
+                                <scan class="glyphicon glyphicon-pencil"></scan>
+                            </a>
+                            <a href="#" class="btn btn-danger">
+                                <scan class="glyphicon glyphicon-remove"></scan>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td></td>
+                        <td>faculty | admin</td>
+                        <td>
+                            <a href="#" class="btn btn-warning">
+                                <scan class="glyphicon glyphicon-pencil"></scan>
+                            </a>
+                            <a href="#" class="btn btn-danger">
+                                <scan class="glyphicon glyphicon-remove"></scan>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Charlie</td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a href="#" class="btn btn-warning">
+                                <scan class="glyphicon glyphicon-pencil"></scan>
+                            </a>
+                            <a href="#" class="btn btn-danger">
+                                <scan class="glyphicon glyphicon-remove"></scan>
+                            </a>
+                        </td>
                     </tr>
                     </tbody>
                 </table>
             </div>
+
         </div>
     </div>
 </div>
