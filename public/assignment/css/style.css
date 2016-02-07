@@ -25,6 +25,11 @@
     margin-top: 10px;
 }
 
-.label {
+.labelBlock {
     display: block;
+}
+
+.thicker {
+    border-width: medium;
+    border-color: black;
 }

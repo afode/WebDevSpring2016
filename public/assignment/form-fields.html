@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Form Maker by AFode</title>
+    <title>Fields:Form Marker by AFode</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -27,7 +27,7 @@
 
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="size2X navbar-brand" href="#">Form Maker</a>
+            <a class="size2X navbar-brand" href="home.html">Form Maker</a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
@@ -59,8 +59,8 @@
             <h1 class="page-header">Forms</h1>
 
             <ul class="nav nav-tabs">
-                <li role="presentation" class="active"><a href="forms.html">Forms</a></li>
-                <li role="presentation"><a href="form-fields.html">Fields</a></li>
+                <li role="presentation"><a href="forms.html">Forms</a></li>
+                <li role="presentation" class="active"><a href="form-fields.html">Fields</a></li>
             </ul>
 
 
@@ -71,46 +71,110 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <form>
-                            <div class="form-group makeRoom">
-                                <label for="exampleInputEmail1">First Name:</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="First Name">
-                            </div>
-                        </form>
+                        <div class="makeRoom">
+                            <label class="labelBlock">First Name:</label>
+                            <input type="text" placeholder="First Name">
+                            <a href="#" class="btn btn-warning">
+                                <scan class="glyphicon glyphicon-pencil"></scan>
+                            </a>
+                            <a href="#" class="btn btn-success">
+                                <scan class="glyphicon glyphicon-plus"></scan>
+                            </a>
+                            <a href="#" class="btn btn-danger">
+                                <scan class="glyphicon glyphicon-remove"></scan>
+                            </a>
+                            <a href="#" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>                            </a>
+                            </a>
+                        </div>
                     </tr>
-
                     <tr>
                         <form>
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Last Name:</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Last Name">
+                                <label class="labelBlock">Last Name:</label>
+                                <input type="text" placeholder="Last Name">
                             </div>
                         </form>
                     </tr>
-
                     <tr>
-                        <label>
-                            <input type="date" class="form-control makeRoom"> Date of Birth
-                        </label>
-                        <label>
-                            <input type="date" class="form-control makeRoom"> Gender
-                        </label>
+                        <div>
+                            <label> Date of Birth:
+                                <input class="form-control" type="date" name="Date of Birth">
+                            </label>
+                        </div>
                     </tr>
-
                     <tr>
                         <form>
-                            <label>
-                                <input type="checkbox"> Admin
-                                <input type="checkbox"> Student
-                                <input type="checkbox"> User
-                            </label>
+                            <div class="makeRoom">
+                                <label>Gender:</label>
+                            </div>
+                            <div>
+                                <select>
+                                    <option value="N/A">N/A</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Male">Male</option>
+                                </select>
+                            </div>
                         </form>
                     </tr>
+                    <tr>
+                        <div class="makeRoom">
+                            <label>Roles:</label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Admin
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Student
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> User
+                            </label>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="makeRoom">
+                            <label>License Agreement:</label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Admin
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Student
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> User
+                            </label>
+                        </div>
+                    </tr>
+                    <!--<tr></tr>-->
+                    <!--<tr></tr>-->
                 </table>
+                <hr class="thicker">
+                <div class="makeRoom">
+                    <label class="labelBlock">Add New Field:</label>
+                    <input type="text" placeholder="field name">
+                    <a href="#" class="btn btn-success">
+                        <scan class="glyphicon glyphicon-plus"></scan>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
