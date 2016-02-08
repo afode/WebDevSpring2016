@@ -33,3 +33,8 @@
     border-width: medium;
     border-color: black;
 }
+
+.form-controlEdit {
+    width: 50%;
+    display: inline;
+}

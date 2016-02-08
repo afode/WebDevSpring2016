@@ -73,7 +73,7 @@
                     <tr>
                         <div class="makeRoom">
                             <label class="labelBlock">First Name:</label>
-                            <input type="text" placeholder="First Name">
+                            <input type="text" class="form-controlEdit form-control" placeholder="First Name">
                             <a href="#" class="btn btn-warning">
                                 <scan class="glyphicon glyphicon-pencil"></scan>
                             </a>
@@ -89,37 +89,60 @@
                         </div>
                     </tr>
                     <tr>
-                        <form>
-                            <div class="form-group">
-                                <label class="labelBlock">Last Name:</label>
-                                <input type="text" placeholder="Last Name">
-                            </div>
-                        </form>
-                    </tr>
-                    <tr>
-                        <div>
-                            <label> Date of Birth:
-                                <input class="form-control" type="date" name="Date of Birth">
-                            </label>
+                        <div class="makeRoom">
+                            <label class="labelBlock">Last Name:</label>
+                            <input type="text" class="form-controlEdit form-control" placeholder="Last Name">
+                        <!--<div class="rightJustify">-->
+                            <a href="#" class="btn btn-warning">
+                                <scan class="glyphicon glyphicon-pencil"></scan>
+                            </a>
+                            <a href="#" class="btn btn-success">
+                                <scan class="glyphicon glyphicon-plus"></scan>
+                            </a>
+                            <a href="#" class="btn btn-danger">
+                                <scan class="glyphicon glyphicon-remove"></scan>
+                            </a>
+                            <a href="#" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>                            </a>
+                            </a>
                         </div>
                     </tr>
                     <tr>
-                        <form>
-                            <div class="makeRoom">
-                                <label>Gender:</label>
-                            </div>
-                            <div>
-                                <select>
-                                    <option value="N/A">N/A</option>
-                                    <option value="Female">Female</option>
-                                    <option value="Male">Male</option>
-                                </select>
-                            </div>
-                        </form>
+                        <div class="makeRoom">
+                            <label class="labelBlock">Date of Birth:</label>
+                            <input class="form-controlEdit form-control" type="date" name="Date of Birth">
+                            <a href="#" class="btn btn-warning">
+                                <scan class="glyphicon glyphicon-pencil"></scan>
+                            </a>
+                            <a href="#" class="btn btn-success">
+                                <scan class="glyphicon glyphicon-plus"></scan>
+                            </a>
+                            <a href="#" class="btn btn-danger">
+                                <scan class="glyphicon glyphicon-remove"></scan>
+                            </a>
+                            <a href="#" class="btn btn-primary">
+                                <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>                            </a>
+                            </a>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="dropdown makeRoom">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Gender:
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">Female</a></li>
+                                <li><a href="#">Male</a></li>
+                                <li><a href="#">N/A</a></li>
+                                <!--<li role="separator" class="divider"></li>-->
+                                <!--<li><a href="#">Separated link</a></li>-->
+                            <!--</ul>-->
+                        </div>
                     </tr>
                     <tr>
                         <div class="makeRoom">
-                            <label>Roles:</label>
+                            <label class="labelBlock">Roles:</label>
                         </div>
                         <div class="checkbox">
                             <label>
@@ -139,7 +162,7 @@
                     </tr>
                     <tr>
                         <div class="makeRoom">
-                            <label>License Agreement:</label>
+                            <label class="labelBlock">License Agreement:</label>
                         </div>
                         <div class="checkbox">
                             <label>
@@ -157,13 +180,11 @@
                             </label>
                         </div>
                     </tr>
-                    <!--<tr></tr>-->
-                    <!--<tr></tr>-->
                 </table>
                 <hr class="thicker">
                 <div class="makeRoom">
                     <label class="labelBlock">Add New Field:</label>
-                    <input type="text" placeholder="field name">
+                    <input type="text" class="form-controlEdit form-control" placeholder="field name">
                     <a href="#" class="btn btn-success">
                         <scan class="glyphicon glyphicon-plus"></scan>
                     </a>
