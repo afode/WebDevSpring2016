@@ -14,7 +14,11 @@
         <h1>Movie List</h1>
         <table ng-controller="MovieListController"
                class="table table-striped">
-            {{movies}}
+            <thead>
+                <tr>
+                    <th>{{movies}}</th>
+                </tr>
+            </thead>
         </table>
     </div>
 </body>
