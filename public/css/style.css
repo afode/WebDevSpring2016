@@ -1,0 +1,15 @@
+.assignment1button {
+    display: table;
+    margin: auto;
+}
+
+.jumbotronEdit {
+    color: darkcyan;
+    font-family: monospace;
+    line-height: inherit;
+}
+
+.initialFont {
+    font-family: initial;
+    font-size: 14px;
+}
