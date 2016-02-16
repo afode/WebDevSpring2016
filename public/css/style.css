@@ -1,6 +1,7 @@
 .assignment1 {
     display: table;
     margin: auto;
+    line-height: 75%;
 }
 
 .jumbotronEdit {
@@ -13,4 +14,11 @@
 .initialFont {
     font-family: initial;
     font-size: 18px;
+    line-height: 230%;
+    margin-top: 10%;
+}
+
+.thicker {
+    border-color: darkcyan;
+    border-width: thick;
 }
