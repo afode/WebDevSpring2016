@@ -9,16 +9,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Forms: Form Maker by AFode</title>
+    <title>Admin:Form Maker by AFode</title>
 
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="dashboard.css" rel="stylesheet">
+    <link href="../css/dashboard.css" rel="stylesheet">
 
     <!--Personalized styling-->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,22 +25,23 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h1 class="page-header">Forms</h1>
 
-            <ul class="nav nav-tabs">
-                <li role="presentation" class="active"><a href="forms.view.html">Forms</a></li>
-                <li role="presentation"><a href="form-fields.view.html">Fields</a></li>
-            </ul>
+            <h1 class="page-header">Admin</h1>
 
+            <h3>Users</h3>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead>
                     <tr>
-                        <th><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>Form Name</th>
+                        <th><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>Username</th>
+                        <th><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>Password</th>
+                        <th><span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>Role</th>
                         <th>Action</th>
                     </tr>
                     <tr>
-                        <td><input class="form-control" type="text" name="Username" placeholder="name"/></td>
+                        <td><input class="form-control" type="text" name="Username" placeholder="username"/></td>
+                        <td><input class="form-control" type="text" name="lastName" placeholder="password"/></td>
+                        <td><input class="form-control" type="text" name="role" placeholder="role 1, role 2"/></td>
                         <td>
                             <a href="#" class="btn btn-success">
                                 <scan class="glyphicon glyphicon-ok"></scan>
@@ -54,7 +54,9 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <td>Registration Form</td>
+                        <td>Alice</td>
+                        <td></td>
+                        <td>student</td>
                         <td>
                             <a href="#" class="btn btn-warning">
                                 <scan class="glyphicon glyphicon-pencil"></scan>
@@ -65,7 +67,9 @@
                         </td>
                     </tr>
                     <tr>
-                        <td><a href="form-fields.view.html"></a>Contact List</td>
+                        <td>Bob</td>
+                        <td></td>
+                        <td>faculty | admin</td>
                         <td>
                             <a href="#" class="btn btn-warning">
                                 <scan class="glyphicon glyphicon-pencil"></scan>
@@ -76,7 +80,9 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>To Do List</td>
+                        <td>Charlie</td>
+                        <td></td>
+                        <td></td>
                         <td>
                             <a href="#" class="btn btn-warning">
                                 <scan class="glyphicon glyphicon-pencil"></scan>
