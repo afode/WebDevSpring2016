@@ -10,7 +10,7 @@ app.get('/hello', function(req, res){
 });
 
 app.get('/assignment1', function(req, res){
-    res.send('/assignment/home.html');
+    res.send('/assignment/home.view.html');
 });
 
 app.listen(port, ipaddress);
