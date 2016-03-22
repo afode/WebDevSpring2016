@@ -1,16 +1,28 @@
-/**
- * Created by AmandaFode on 2/24/16.
- */
-
-(function()
-{
+(function(){
     angular
         .module("FormBuilderApp")
-        .controller("home.controller", homeController);
+        .controller("HomeController", HomeController);
 
-    function homeController($scope)
-    {
-        //$scope.addCourse = addCourse;
-        //$scope.removeCourse = removeCourse;
-        //$scope.selectCourse = selectCourse;
-        //$scope.updateCourse = updateCourse;
+    function HomeController($scope) {
+
+
+
+    }
+
+})();
+
+
+
+
+//(function()
+//{
+//    angular
+//        .module("FormBuilderApp")
+//        .controller("home.controller", homeController);
+//
+//    function homeController($scope)
+//    {
+//        //$scope.addCourse = addCourse;
+//        //$scope.removeCourse = removeCourse;
+//        //$scope.selectCourse = selectCourse;
+//        //$scope.updateCourse = updateCourse;

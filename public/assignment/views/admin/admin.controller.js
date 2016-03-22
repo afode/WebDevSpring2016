@@ -1,3 +1,12 @@
-/**
- * Created by AmandaFode on 3/4/16.
- */
+(function(){
+    angular
+        .module("FormBuilderApp")
+        .controller("AdminController", AdminController);
+
+    function AdminController($scope) {
+
+
+
+    }
+
+})();

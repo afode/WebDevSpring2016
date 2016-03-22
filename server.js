@@ -9,8 +9,4 @@ app.get('/hello', function(req, res){
     res.send('hello world');
 });
 
-app.get('/assignment1', function(req, res){
-    res.send('/assignment/home.view.html');
-});
-
 app.listen(port, ipaddress);
